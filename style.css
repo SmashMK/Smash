@@ -1,0 +1,101 @@
+body {
+    font-family: Roboto,Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    background-color: #eeebeb;
+
+}
+
+.logo {
+    font-size: 11px;
+    font-family:cursive;
+}
+
+.logo h1 {
+    margin: 0;
+    color: black; 
+}
+
+#banner {
+    background-image: url(images/wh5.jpg);
+    background-size: 75% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    background-color: #eeebeb;
+}
+
+#products {
+    text-align: center;
+    padding: 50px;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 15px;
+    width: 350px;
+    height: 365px;
+    
+}
+
+.product .product-image {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-left: 76px;
+}
+
+@media only screen and (max-width:600px){
+    .product .product-image{
+        margin-left: 73px;
+    }  
+}
+
+.product-image {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 300px; 
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #636262;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product button {
+    padding: 13px 25px;
+    background-color: rgb(226, 225, 225);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.product button a{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, arial;
+    font-weight: 900;
+}
